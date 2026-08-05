@@ -13,7 +13,7 @@ export function Services() {
     >
       <div className="services-grid">
         {servicesData.map((service, i) => (
-          <Reveal key={service.title} delay={i * 70}>
+          <Reveal key={service.title} delay={i * 70} className="service-item">
             <div className="service-card">
               <span className="service-card-icon">
                 <Icon name={service.icon} size={22} />
