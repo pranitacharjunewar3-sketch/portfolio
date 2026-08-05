@@ -17,7 +17,7 @@
 
 ---
 
-A production-grade portfolio built with **React 19, TypeScript, and Vite**, styled after the **Linear design language** — near-black canvas, lavender-blue accents, dark surface ladder, and precise product chrome.
+A production-grade portfolio built with **React 19, TypeScript, and Vite**, styled after the **Vercel design language** — light canvas, black-ink CTAs, hairline card borders, and the signature mesh-gradient hero.
 
 Sections: Hero → Projects → Skills → Certifications → Contact
 
@@ -42,5 +42,5 @@ The included [GitHub Actions workflow](.github/workflows/deploy.yml) automatical
 
 - React 19 + TypeScript (strict)
 - Vite 6
-- Linear-inspired design system (dark canvas / lavender / surface ladder)
+- Vercel-inspired design system (light canvas / black ink / mesh gradient)
 - Zero runtime UI dependencies
