@@ -1026,6 +1026,8 @@ h1, h2, h3, h4 {
   display: flex;
   flex-wrap: wrap;
   gap: var(--s-xs);
+  margin-top: auto;
+  padding-top: var(--s-xs);
 }
 
 .badge-pill {

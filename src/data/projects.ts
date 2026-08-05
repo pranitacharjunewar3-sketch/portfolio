@@ -3,8 +3,6 @@ export interface Project {
   title: string;
   description: string;
   tags: string[];
-  url?: string;
-  github?: string;
   featured?: boolean;
 }
 
@@ -15,7 +13,6 @@ export const projectsData: Project[] = [
     description:
       "AI chat platform with real-time communication — streaming responses, live sessions, and a polished conversational interface.",
     tags: ["AI", "Real-time", "Web"],
-    url: "https://chatsarathi.pan.com.np",
     featured: true,
   },
   {
@@ -24,15 +21,14 @@ export const projectsData: Project[] = [
     description:
       "AI-powered marketplace where AI handles orders, support, recommendations, and scheduling end-to-end.",
     tags: ["AI", "Marketplace", "Automation"],
-    url: "https://assist.pan.com.np",
     featured: true,
   },
   {
     id: "eduplus",
     title: "EDU+",
-    description: "AI-enhanced education platform designed to accelerate learning with intelligent tutoring.",
+    description:
+      "AI-enhanced education platform designed to accelerate learning with intelligent tutoring.",
     tags: ["AI", "EdTech", "Web"],
-    url: "https://eduplus.pan.com.np",
   },
   {
     id: "focus-plus",

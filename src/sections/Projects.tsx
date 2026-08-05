@@ -6,34 +6,8 @@ import { projectsData, type Project } from "../data/projects";
 function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="project-card">
-      <div className="project-card-header">
-        <div className="project-icon">
-          <Icon name={project.featured ? "sparkles" : "box"} />
-        </div>
-        <div className="project-links">
-          {project.url && (
-            <a
-              className="icon-btn"
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`${project.title} live site`}
-            >
-              <Icon name="external" size={17} />
-            </a>
-          )}
-          {project.github && (
-            <a
-              className="icon-btn"
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`${project.title} source code`}
-            >
-              <Icon name="github" size={17} />
-            </a>
-          )}
-        </div>
+      <div className="project-icon">
+        <Icon name={project.featured ? "sparkles" : "box"} />
       </div>
 
       <h3 className="project-title">{project.title}</h3>
@@ -56,7 +30,7 @@ export function Projects() {
       id="projects"
       eyebrow="Selected Work"
       title="Projects that ship value"
-      intro="AI-powered products, full-stack systems, and open-source experiments — built end to end."
+      intro="AI-powered products, full-stack systems, and AI tools — built end to end."
     >
       <div className="projects-grid">
         {projectsData.map((project, i) => (
