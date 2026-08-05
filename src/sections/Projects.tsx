@@ -7,7 +7,7 @@ function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="project-card">
       <div className="project-icon">
-        <Icon name={project.featured ? "sparkles" : "box"} />
+        <Icon name={project.featured ? "star" : "box"} />
       </div>
 
       <h3 className="project-title">{project.title}</h3>

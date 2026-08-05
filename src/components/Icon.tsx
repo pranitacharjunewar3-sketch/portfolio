@@ -133,6 +133,12 @@ export function Icon({ name, size = 20, className, strokeWidth = 1.8 }: IconProp
           <path d="M19 15l.6 1.6 1.6.6-1.6.6L19 20l-.6-1.6-1.6-.6 1.6-.6L19 15Z" />
         </svg>
       );
+    case "star":
+      return (
+        <svg {...common} fill="currentColor" stroke="none">
+          <path d="M12 2.5l2.9 6.1 6.6.9-4.8 4.6 1.2 6.6L12 17.7l-5.9 3-1.2-6.6L.1 9.5l6.6-.9L12 2.5Z" />
+        </svg>
+      );
     case "bot":
       return (
         <svg {...common}>
