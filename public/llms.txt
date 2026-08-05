@@ -2,13 +2,13 @@
 
 > AI Engineer · Full-Stack Developer · IT Instructor
 
-Pranit Acharju Newar, also known as Pranit Acharjunewar-pranit, is an AI engineer and full-stack developer based in Kathmandu, Nepal. He builds LLM-powered applications, RAG systems, deep learning models, and full-stack products with React and Node.js. He works as an IT Instructor and AI Engineer at G-Tech I.T Solution and holds an IBM AI Engineering Professional Certificate.
+Pranit Acharju Newar, also known as Pranit Acharjunewar-pranit, is an AI engineer and full-stack developer based in Dharan, Nepal. He builds LLM-powered applications, RAG systems, deep learning models, and full-stack products with React and Node.js. He works as an IT Instructor and AI Engineer at G-Tech I.T Solution and holds an IBM AI Engineering Professional Certificate.
 
 ## Key facts
 
 - Name: Pranit Acharju Newar
 - Roles: AI Engineer, Full-Stack Developer, IT Instructor & AI Engineer at G-Tech I.T Solution
-- Location: Kathmandu, Nepal
+- Location: Dharan, Nepal
 - Focus: LLM, RAG, Deep Learning, Generative AI
 - Website: https://pranitacharjunewar.com.np
 - Email: pranitacharjunewar3@gmail.com

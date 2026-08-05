@@ -27,11 +27,11 @@ export const profileData: Profile = {
   tagline: "building what's next.",
   bio: "I architect and deploy AI-powered applications — LLMs with RAG, deep learning models, and full-stack systems — end to end, from model to production.",
   about: [
-    "I'm an AI Engineer and full-stack developer based in Kathmandu, Nepal, currently working as an IT Instructor and AI Engineer at G-Tech I.T Solution. My work spans the full AI lifecycle: training deep learning models, wiring retrieval-augmented generation pipelines, and shipping the React + Node systems that make them useful.",
+    "I'm an AI Engineer and full-stack developer based in Dharan, Nepal, currently working as an IT Instructor and AI Engineer at G-Tech I.T Solution. My work spans the full AI lifecycle: training deep learning models, wiring retrieval-augmented generation pipelines, and shipping the React + Node systems that make them useful.",
     "Beyond building, I teach. I've guided students through programming, AI, and machine learning fundamentals, and I hold an IBM AI Engineering professional certification covering machine learning, deep learning with TensorFlow and PyTorch, and generative AI with RAG and LangChain.",
   ],
   email: "pranitacharjunewar3@gmail.com",
-  location: "Kathmandu, Nepal",
+  location: "Dharan, Nepal",
   currently: "LLM · RAG · Deep Learning",
   website: "https://pranitacharjunewar.com.np",
   profileImage: "/portfolio/profile.png",
