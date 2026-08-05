@@ -35,28 +35,24 @@ export const projectsData: Project[] = [
     url: "https://eduplus.pan.com.np",
   },
   {
-    id: "course-sim",
-    title: "Course-Sim",
+    id: "focus-plus",
+    title: "Focus+",
     description:
-      "Interactive computer science simulations — Data Types, Programming, Algorithms, and ML — in Nepali Romanized.",
-    tags: ["React", "TypeScript", "Vite"],
-    github: "https://github.com/pranitacharjunewar3-sketch/Course-Sim",
+      "AI life consultant that helps you stay focused, plan your day, and make better decisions with conversational guidance.",
+    tags: ["AI", "Life Coaching", "Productivity"],
   },
   {
-    id: "daily-ai-lab",
-    title: "Daily AI Lab",
+    id: "gsm",
+    title: "GSM",
     description:
-      "Automated daily AI research logs and experiments running on GitHub Actions, keeping a living record of exploration.",
-    tags: ["Python", "Automation", "GitHub Actions"],
-    github: "https://github.com/pranitacharjunewar3-sketch/daily-ai-lab",
+      "Inventory management system built to track stock, manage items, and streamline day-to-day inventory operations.",
+    tags: ["Inventory", "Management", "Web"],
   },
   {
-    id: "portfolio",
-    title: "Portfolio",
+    id: "vyakarana",
+    title: "Vyakarana",
     description:
-      "The site you're on — built with React 19, TypeScript, and Vite, styled after the Claude design language.",
-    tags: ["React", "TypeScript", "Vite"],
-    url: "https://pranitacharjunewar3-sketch.github.io/portfolio/",
-    github: "https://github.com/pranitacharjunewar3-sketch/portfolio",
+      "Language tool that checks grammar, spelling, and sentence structure to help you write clean, correct text.",
+    tags: ["NLP", "Grammar", "Language"],
   },
 ];
