@@ -56,7 +56,7 @@ export function Footer() {
 
         <div className="footer-bottom">
           <span>
-            © {year} {profileData.name}. Built with Passion.
+            © {year} {profileData.name}. Built with Passion &amp; ❤️.
           </span>
           <span>
             Deployed with GitHub Actions ·{" "}
