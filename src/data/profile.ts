@@ -51,7 +51,7 @@ export const profileData: Profile = {
   ],
   stats: [
     { value: "30+", label: "Projects shipped" },
-    { value: "6", label: "Certifications" },
+    { value: "20+", label: "Rewards & achievements" },
     { value: "13", label: "IBM specializations" },
   ],
 };
