@@ -22,6 +22,7 @@ Pranit Acharju Newar, also known as Pranit Acharjunewar-pranit, is an AI enginee
 ## Skills
 
 - AI/ML: Python, PyTorch, TensorFlow, Keras, scikit-learn, LangChain, OpenAI, HuggingFace, RAG
+- Languages: HTML, HTMX, CSS, JavaScript, Python, Go, Rust, Swift, Kotlin, Dart, C#, C++, C, Java
 - Frontend: React, TypeScript, JavaScript, Vite, Tailwind CSS
 - Backend: Node.js, Express, REST APIs
 - Database: MongoDB, MySQL, SQLite, MS SQL, PostgreSQL, Supabase, Redis
