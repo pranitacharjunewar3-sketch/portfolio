@@ -33,7 +33,15 @@ export const skillGroups: SkillGroup[] = [
   {
     category: "Database",
     icon: "database",
-    items: ["MongoDB", "MySQL"],
+    items: [
+      "MongoDB",
+      "MySQL",
+      "SQLite",
+      "MS SQL",
+      "PostgreSQL",
+      "Supabase",
+      "Redis",
+    ],
   },
   {
     category: "Infrastructure",
