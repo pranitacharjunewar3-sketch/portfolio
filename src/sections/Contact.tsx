@@ -145,9 +145,6 @@ export function Contact() {
                       </span>
                     )}
                   </div>
-                  <p className="form-note">
-                    No account or backend needed — this opens a pre-filled email in your mail app.
-                  </p>
                 </div>
               </form>
             </div>
