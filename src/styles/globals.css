@@ -1048,6 +1048,11 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--s-lg);
+  align-items: stretch;
+}
+
+.skills-item {
+  height: 100%;
 }
 
 .skill-group {
@@ -1057,6 +1062,9 @@ h1, h2, h3, h4 {
   padding: var(--s-xl);
   box-shadow: var(--shadow-card);
   transition: box-shadow 150ms ease, transform 150ms ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .skill-group:hover {

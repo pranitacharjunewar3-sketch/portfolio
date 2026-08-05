@@ -14,7 +14,7 @@ export function Skills() {
     >
       <div className="skills-grid">
         {skillGroups.map((group, i) => (
-          <Reveal key={group.category} delay={(i % 3) * 80}>
+          <Reveal key={group.category} delay={(i % 3) * 80} className="skills-item">
             <div className="skill-group">
               <div className="skill-group-head">
                 <span className="skill-group-icon">
