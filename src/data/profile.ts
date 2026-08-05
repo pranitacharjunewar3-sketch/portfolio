@@ -33,8 +33,8 @@ export const profileData: Profile = {
   location: "Dharan, Nepal",
   currently: "LLM · RAG · Deep Learning",
   website: "https://pranitacharjunewar.com.np",
-  profileImage: "/portfolio/profile.png",
-  ogImage: "/portfolio/og-preview.png",
+  profileImage: "/profile.png",
+  ogImage: "/og-preview.png",
   resumeUrl: "https://github.com/pranitacharjunewar3-sketch",
   githubUsername: "pranitacharjunewar3-sketch",
   links: {

@@ -2,8 +2,8 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  // GitHub Pages project-page base path. Deploys to /portfolio/
-  base: "/portfolio/",
+  // Served at the root of the custom domain (GitHub Pages project site)
+  base: "/",
   plugins: [react()],
   build: {
     outDir: "dist",
