@@ -55,6 +55,16 @@ export const experienceData: ExperienceItem[] = [
     tags: ["TensorFlow", "PyTorch", "GenAI"],
   },
   {
+    role: "Google AI Professional Certificate",
+    org: "Google · Coursera",
+    period: "Completed",
+    type: "education",
+    description: [
+      "Covers machine learning foundations, deep learning, and responsible AI in practice.",
+    ],
+    tags: ["Machine Learning", "Google AI"],
+  },
+  {
     role: "Adobe Graphic Designer Professional Certificate",
     org: "Adobe",
     period: "Completed",
