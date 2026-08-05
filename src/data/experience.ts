@@ -32,6 +32,17 @@ export const experienceData: ExperienceItem[] = [
     tags: ["LLM", "RAG", "React", "Node.js"],
   },
   {
+    role: "Computer Instructor",
+    org: "Srijana English Boarding School",
+    period: "1 year",
+    type: "work",
+    description: [
+      "Taught computer science to students, covering both theory and practical sessions.",
+      "Guided students through hands-on computer skills and foundational programming.",
+    ],
+    tags: ["Teaching", "Theory & Practical", "Computer Science"],
+  },
+  {
     role: "IBM AI Engineering Professional Certificate",
     org: "IBM · Coursera",
     period: "Completed",
@@ -41,5 +52,16 @@ export const experienceData: ExperienceItem[] = [
       "Generative AI — LLM architecture, fine-tuning, and RAG applications with LangChain.",
     ],
     tags: ["TensorFlow", "PyTorch", "GenAI"],
+  },
+  {
+    role: "Diploma in Electrical Engineering",
+    org: "Diploma (Engineering)",
+    period: "Completed",
+    type: "education",
+    description: [
+      "Completed a Diploma in Electrical Engineering, building a strong engineering foundation.",
+      "Developed analytical, problem-solving, and technical skills across core engineering principles.",
+    ],
+    tags: ["Electrical Engineering", "Engineering"],
   },
 ];
