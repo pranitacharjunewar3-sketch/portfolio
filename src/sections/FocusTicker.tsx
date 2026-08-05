@@ -8,9 +8,9 @@ export function FocusTicker() {
         <div className="ticker-label">Focus areas</div>
         <div className="ticker-items">
           {focusData.map((focus) => (
-            <span className="ticker-chip" key={focus}>
-              <Icon name="star" size={14} />
-              {focus}
+            <span className="ticker-chip" key={focus.label}>
+              <Icon name={focus.icon} size={14} />
+              {focus.label}
             </span>
           ))}
         </div>

@@ -36,13 +36,18 @@ export const servicesData: Service[] = [
   },
 ];
 
-export const focusData: string[] = [
-  "Retrieval-Augmented Generation",
-  "AI Agents",
-  "Deep Learning",
-  "Real-time AI products",
-  "EdTech & AI",
-  "LLM fine-tuning",
-  "Automation pipelines",
-  "Teaching & mentorship",
+export interface FocusItem {
+  label: string;
+  icon: string;
+}
+
+export const focusData: FocusItem[] = [
+  { label: "Retrieval-Augmented Generation", icon: "brain" },
+  { label: "AI Agents", icon: "bot" },
+  { label: "Deep Learning", icon: "brain" },
+  { label: "Real-time AI products", icon: "rocket" },
+  { label: "EdTech & AI", icon: "graduation" },
+  { label: "LLM fine-tuning", icon: "target" },
+  { label: "Automation pipelines", icon: "box" },
+  { label: "Teaching & mentorship", icon: "users" },
 ];
