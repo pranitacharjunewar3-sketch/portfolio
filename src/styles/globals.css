@@ -1182,6 +1182,11 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--s-lg);
+  align-items: stretch;
+}
+
+.cert-item {
+  height: 100%;
 }
 
 .cert-card {
@@ -1192,6 +1197,7 @@ h1, h2, h3, h4 {
   border-radius: var(--r-lg);
   padding: var(--s-xl);
   gap: var(--s-sm);
+  height: 100%;
   box-shadow: var(--shadow-card);
   text-decoration: none;
   transition:

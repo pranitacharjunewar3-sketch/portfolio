@@ -13,7 +13,7 @@ export function Certifications() {
     >
       <div className="cert-grid" style={{ marginBottom: "var(--s-4xl)" }}>
         {certifications.map((cert, i) => (
-          <Reveal key={cert.title} delay={i * 80}>
+          <Reveal key={cert.title} delay={i * 80} className="cert-item">
             <div className="cert-card">
               <span className="cert-icon">
                 <Icon name="certificate" size={22} />
