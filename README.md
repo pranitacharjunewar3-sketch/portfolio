@@ -17,7 +17,7 @@
 
 ---
 
-A production-grade portfolio built with **React 19, TypeScript, and Vite**, styled after the **Claude design language** — warm cream canvas, coral accents, serif display type, and dark product surfaces.
+A production-grade portfolio built with **React 19, TypeScript, and Vite**, styled after the **Linear design language** — near-black canvas, lavender-blue accents, dark surface ladder, and precise product chrome.
 
 Sections: Hero → Projects → Skills → Certifications → Contact
 
@@ -42,5 +42,5 @@ The included [GitHub Actions workflow](.github/workflows/deploy.yml) automatical
 
 - React 19 + TypeScript (strict)
 - Vite 6
-- Claude-inspired design system (cream / coral / dark surfaces)
+- Linear-inspired design system (dark canvas / lavender / surface ladder)
 - Zero runtime UI dependencies
