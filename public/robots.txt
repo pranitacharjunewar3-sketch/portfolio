@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pranitacharjunewar3-sketch.github.io/portfolio/sitemap.xml

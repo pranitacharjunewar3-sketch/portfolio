@@ -2,16 +2,17 @@ interface IconProps {
   name: string;
   size?: number;
   className?: string;
+  strokeWidth?: number;
 }
 
-export function Icon({ name, size = 20, className }: IconProps) {
+export function Icon({ name, size = 20, className, strokeWidth = 1.8 }: IconProps) {
   const common = {
     width: size,
     height: size,
     viewBox: "0 0 24 24",
     fill: "none",
     stroke: "currentColor",
-    strokeWidth: 1.8,
+    strokeWidth,
     strokeLinecap: "round" as const,
     strokeLinejoin: "round" as const,
     className,
@@ -74,6 +75,34 @@ export function Icon({ name, size = 20, className }: IconProps) {
           <path d="m13 6 6 6-6 6" />
         </svg>
       );
+    case "arrowUp":
+      return (
+        <svg {...common}>
+          <path d="M12 19V5" />
+          <path d="m5 12 7-7 7 7" />
+        </svg>
+      );
+    case "chevronDown":
+      return (
+        <svg {...common}>
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      );
+    case "download":
+      return (
+        <svg {...common}>
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <path d="m7 10 5 5 5-5" />
+          <path d="M12 15V3" />
+        </svg>
+      );
+    case "send":
+      return (
+        <svg {...common}>
+          <path d="m22 2-7 20-4-9-9-4Z" />
+          <path d="M22 2 11 13" />
+        </svg>
+      );
     case "mapPin":
       return (
         <svg {...common}>
@@ -88,6 +117,14 @@ export function Icon({ name, size = 20, className }: IconProps) {
           <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
         </svg>
       );
+    case "graduation":
+      return (
+        <svg {...common}>
+          <path d="M22 9 12 4 2 9l10 5 10-5Z" />
+          <path d="M6 11.5V16c0 1.1 2.7 2 6 2s6-.9 6-2v-4.5" />
+          <path d="M22 9v6" />
+        </svg>
+      );
     case "sparkles":
       return (
         <svg {...common}>
@@ -96,12 +133,47 @@ export function Icon({ name, size = 20, className }: IconProps) {
           <path d="M19 15l.6 1.6 1.6.6-1.6.6L19 20l-.6-1.6-1.6-.6 1.6-.6L19 15Z" />
         </svg>
       );
+    case "bot":
+      return (
+        <svg {...common}>
+          <rect x="4" y="8" width="16" height="12" rx="3" />
+          <path d="M12 8V4" />
+          <circle cx="12" cy="3" r="1" />
+          <path d="M9 13h.01M15 13h.01" />
+          <path d="M6 5.5 4 7" />
+          <path d="M18 5.5 20 7" />
+        </svg>
+      );
     case "brain":
       return (
         <svg {...common}>
           <path d="M9.5 2a2.5 2.5 0 0 0-2.5 2.5A2.5 2.5 0 0 0 4 7v2.5A2.5 2.5 0 0 0 2 12a2.5 2.5 0 0 0 2 2.45V17a3 3 0 0 0 3 3h1a2.5 2.5 0 0 0 4.5 1.6A2.5 2.5 0 0 0 17 20h1" />
           <path d="M20 9.5V7a2.5 2.5 0 0 0-3-2.45A2.5 2.5 0 0 0 14.5 2" />
           <path d="M20 12a2.5 2.5 0 0 1-2 2.45V17a3 3 0 0 1-3 3" />
+        </svg>
+      );
+    case "code":
+      return (
+        <svg {...common}>
+          <path d="m8 8-4 4 4 4" />
+          <path d="m16 8 4 4-4 4" />
+          <path d="m13 5-4 14" />
+        </svg>
+      );
+    case "terminal":
+      return (
+        <svg {...common}>
+          <rect x="2" y="4" width="20" height="16" rx="2" />
+          <path d="m7 9 3 3-3 3" />
+          <path d="M13 15h4" />
+        </svg>
+      );
+    case "rocket":
+      return (
+        <svg {...common}>
+          <path d="M15 6a4.5 4.5 0 0 1 3 3C21 6 20 3 18 1c-4 1-6 3-6 6l3 3-9 9H2v-4l2-1" />
+          <path d="M16 8l-5 5" />
+          <circle cx="6" cy="18" r="2" />
         </svg>
       );
     case "layout":
@@ -149,6 +221,46 @@ export function Icon({ name, size = 20, className }: IconProps) {
         <svg {...common}>
           <circle cx="12" cy="9" r="6" />
           <path d="M9 14.5 7 22l5-2 5 2-2-7.5" />
+        </svg>
+      );
+    case "award":
+      return (
+        <svg {...common}>
+          <circle cx="12" cy="9" r="6" />
+          <path d="m8 14-2 7 5-2 5 2-2-7" />
+        </svg>
+      );
+    case "users":
+      return (
+        <svg {...common}>
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+          <circle cx="9" cy="7" r="4" />
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+        </svg>
+      );
+    case "target":
+      return (
+        <svg {...common}>
+          <circle cx="12" cy="12" r="9" />
+          <circle cx="12" cy="12" r="5" />
+          <circle cx="12" cy="12" r="1" />
+        </svg>
+      );
+    case "cpu":
+      return (
+        <svg {...common}>
+          <rect x="5" y="5" width="14" height="14" rx="1" />
+          <rect x="9" y="9" width="6" height="6" />
+          <path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3" />
+        </svg>
+      );
+    case "globe":
+      return (
+        <svg {...common}>
+          <circle cx="12" cy="12" r="9" />
+          <path d="M3 12h18" />
+          <path d="M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z" />
         </svg>
       );
     case "upwork":

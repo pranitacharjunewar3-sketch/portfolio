@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/React-19-8B5CF6?style=flat-square&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/React-19-000000?style=flat-square&logo=react" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite" alt="Vite" />
-  <img src="https://img.shields.io/badge/Status-Live-22c55e?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/badge/Status-Live-0aa64e?style=flat-square" alt="Status" />
 </p>
 
-<h1 align="center">Pranit Acharju Newar — Portfolio v3</h1>
+<h1 align="center">Pranit Acharju Newar — Portfolio</h1>
 
 <p align="center">
   <b>AI Engineer · Full-Stack Developer · IT Instructor</b>
@@ -19,7 +19,17 @@
 
 A production-grade portfolio built with **React 19, TypeScript, and Vite**, styled after the **Vercel design language** — light canvas, black-ink CTAs, hairline card borders, and the signature mesh-gradient hero.
 
-Sections: Hero → Projects → Skills → Certifications → Contact
+## Sections
+
+Hero (with profile card) → Focus areas → About → Experience timeline → Stats band → Projects → Services → Skills → Certifications → Contact (with mailto form) → Footer
+
+## Production features
+
+- **SEO**: structured JSON-LD (Person schema), Open Graph, Twitter cards, canonical URL
+- **Static SEO files**: `robots.txt`, `sitemap.xml`, `llms.txt`, and a styled `404.html`
+- **UX**: scrollspy navigation, scroll-reveal animations, back-to-top button, responsive mobile sheet nav
+- **Accessibility**: skip-link, focus states, aria labels, `prefers-reduced-motion` support
+- **Performance**: strict TypeScript, zero runtime UI dependencies, ~70 kB gzipped JS
 
 ## Getting started
 
