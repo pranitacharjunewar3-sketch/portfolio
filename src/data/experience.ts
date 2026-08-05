@@ -32,6 +32,18 @@ export const experienceData: ExperienceItem[] = [
     tags: ["LLM", "RAG", "React", "Node.js"],
   },
   {
+    role: "Intern",
+    org: "Nepal Electricity Authority (NEA)",
+    period: "1 year",
+    type: "work",
+    description: [
+      "3 months at Inarwa NEA, gaining hands-on experience in electrical systems and grid operations.",
+      "6 months in Bhojpur — 1 month at Bhojpur Bazar and 5 months at Jarayotar, Bhojpur.",
+      "3 months at Dharan, applying engineering skills in real-world utility work.",
+    ],
+    tags: ["Electrical Engineering", "NEA", "Fieldwork"],
+  },
+  {
     role: "Computer Instructor",
     org: "Srijana English Boarding School",
     period: "1 year",
