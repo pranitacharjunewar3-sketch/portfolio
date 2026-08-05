@@ -56,7 +56,7 @@ export function Footer() {
 
         <div className="footer-bottom">
           <span>
-            © {year} {profileData.name}. Built with React, TypeScript &amp; Vite.
+            © {year} {profileData.name}. Built with Passion.
           </span>
           <span>
             Deployed with GitHub Actions ·{" "}
