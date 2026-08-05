@@ -12,7 +12,7 @@ export function Hero() {
           <Reveal>
             <div className="hero-badge">
               <span className="dot" />
-              Available for projects &amp; collaboration
+              IT Instructor &amp; AI Engineer at G-Tech I.T Solution
             </div>
 
             <h1 className="display-xl">
@@ -67,7 +67,7 @@ export function Hero() {
               <div className="profile-photo-wrap">
                 <span className="profile-status">
                   <span className="dot" />
-                  Open to work
+                  Currently employed
                 </span>
                 <img
                   src={profileData.profileImage}
