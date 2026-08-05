@@ -21,17 +21,6 @@ export const experienceData: ExperienceItem[] = [
     tags: ["Teaching", "AI Engineering", "Python"],
   },
   {
-    role: "AI Engineer & Full-Stack Developer",
-    org: "Independent / Upwork",
-    period: "2024 — Present",
-    type: "work",
-    description: [
-      "Building AI-powered applications: AI chat platforms, marketplaces, and EdTech products.",
-      "Shipping React + Node systems with LLM integration, RAG pipelines, and real-time features.",
-    ],
-    tags: ["LLM", "RAG", "React", "Node.js"],
-  },
-  {
     role: "Intern",
     org: "Nepal Electricity Authority (NEA)",
     period: "1 year",

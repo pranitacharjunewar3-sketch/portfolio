@@ -15,7 +15,6 @@ export interface Profile {
   links: {
     github: string;
     linkedin: string;
-    upwork: string;
   };
   highlights: string[];
   stats: { value: string; label: string }[];
@@ -41,7 +40,6 @@ export const profileData: Profile = {
   links: {
     github: "https://github.com/pranitacharjunewar3-sketch",
     linkedin: "https://www.linkedin.com/in/pranitacharjunewar",
-    upwork: "https://www.upwork.com/freelancers/~010ad1f489f816ac9e",
   },
   highlights: [
     "IBM AI Engineering certified",

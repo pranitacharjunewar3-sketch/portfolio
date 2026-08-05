@@ -119,15 +119,6 @@ export function Hero() {
                   </a>
                   <a
                     className="icon-btn"
-                    href={profileData.links.upwork}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Upwork"
-                  >
-                    <Icon name="upwork" size={18} />
-                  </a>
-                  <a
-                    className="icon-btn"
                     href={`mailto:${profileData.email}`}
                     aria-label="Email"
                   >

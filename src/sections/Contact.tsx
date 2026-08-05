@@ -12,7 +12,6 @@ const contactRows = [
     href: profileData.links.github,
   },
   { icon: "linkedin", label: "LinkedIn", value: "Pranit Acharju Newar", href: profileData.links.linkedin },
-  { icon: "upwork", label: "Upwork", value: "AI & Full-Stack Freelance", href: profileData.links.upwork },
 ];
 
 export function Contact() {

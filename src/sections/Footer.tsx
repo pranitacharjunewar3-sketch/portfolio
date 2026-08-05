@@ -45,11 +45,6 @@ export function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href={profileData.links.upwork} target="_blank" rel="noopener noreferrer">
-                    Upwork
-                  </a>
-                </li>
-                <li>
                   <a href={profileData.website} target="_blank" rel="noopener noreferrer">
                     pranitacharjunewar.com.np
                   </a>
