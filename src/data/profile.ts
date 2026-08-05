@@ -50,7 +50,7 @@ export const profileData: Profile = {
     "Teaching IT & AI at G-Tech I.T Solution",
   ],
   stats: [
-    { value: "6+", label: "Projects shipped" },
+    { value: "30+", label: "Projects shipped" },
     { value: "6", label: "Certifications" },
     { value: "13", label: "IBM specializations" },
   ],
