@@ -10,6 +10,10 @@ export interface CourseCert {
 
 export const certifications: Certification[] = [
   {
+    title: "Diploma in Electrical Engineering",
+    issuer: "Diploma (Engineering)",
+  },
+  {
     title: "Google AI Professional Certificate",
     issuer: "Google · Coursera",
   },
