@@ -9,15 +9,16 @@ export interface ExperienceItem {
 
 export const experienceData: ExperienceItem[] = [
   {
-    role: "IT Instructor",
+    role: "IT Instructor & AI Engineer",
     org: "G-Tech I.T Solution",
     period: "Present",
     type: "work",
     description: [
       "Teaching programming, AI, and machine learning fundamentals to students.",
       "Designing hands-on curriculum that moves from theory to working code.",
+      "Engineering AI-powered solutions and internal tools alongside teaching.",
     ],
-    tags: ["Teaching", "Python", "AI / ML"],
+    tags: ["Teaching", "AI Engineering", "Python"],
   },
   {
     role: "AI Engineer & Full-Stack Developer",
