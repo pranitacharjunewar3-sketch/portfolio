@@ -15,7 +15,7 @@ export const certifications: Certification[] = [
   },
   {
     title: "Google AI Professional Certificate",
-    issuer: "Google · Coursera",
+    issuer: "Google",
   },
   {
     title: "Adobe Graphic Designer: Design that Demands Attention",
@@ -23,7 +23,7 @@ export const certifications: Certification[] = [
   },
   {
     title: "IBM AI Engineering",
-    issuer: "IBM · Coursera",
+    issuer: "IBM",
   },
   {
     title: "Ethical Hacker",

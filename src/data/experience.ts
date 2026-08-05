@@ -45,7 +45,7 @@ export const experienceData: ExperienceItem[] = [
   },
   {
     role: "IBM AI Engineering Professional Certificate",
-    org: "IBM · Coursera",
+    org: "IBM",
     period: "Completed",
     type: "education",
     description: [
@@ -56,7 +56,7 @@ export const experienceData: ExperienceItem[] = [
   },
   {
     role: "Google AI Professional Certificate",
-    org: "Google · Coursera",
+    org: "Google",
     period: "Completed",
     type: "education",
     description: [
