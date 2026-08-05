@@ -34,7 +34,7 @@ export function Projects() {
     >
       <div className="projects-grid">
         {projectsData.map((project, i) => (
-          <Reveal key={project.id} delay={(i % 3) * 80}>
+          <Reveal key={project.id} delay={(i % 3) * 80} className="project-item">
             <ProjectCard project={project} />
           </Reveal>
         ))}

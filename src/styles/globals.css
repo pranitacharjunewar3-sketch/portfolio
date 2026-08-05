@@ -963,6 +963,11 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--s-lg);
+  align-items: stretch;
+}
+
+.project-item {
+  height: 100%;
 }
 
 .project-card {
@@ -973,6 +978,7 @@ h1, h2, h3, h4 {
   border-radius: var(--r-lg);
   padding: var(--s-lg);
   gap: var(--s-md);
+  height: 100%;
   box-shadow: var(--shadow-card);
   transition:
     box-shadow 180ms ease,
