@@ -55,6 +55,16 @@ export const experienceData: ExperienceItem[] = [
     tags: ["TensorFlow", "PyTorch", "GenAI"],
   },
   {
+    role: "Adobe Graphic Designer Professional Certificate",
+    org: "Adobe",
+    period: "Completed",
+    type: "education",
+    description: [
+      "Design that Demands Attention — professional graphic design certificate.",
+    ],
+    tags: ["Graphic Design", "Adobe"],
+  },
+  {
     role: "Diploma in Electrical Engineering",
     org: "Diploma (Engineering)",
     period: "Completed",
