@@ -14,21 +14,13 @@ export function Certifications() {
       <div className="cert-grid" style={{ marginBottom: "var(--s-4xl)" }}>
         {certifications.map((cert, i) => (
           <Reveal key={cert.title} delay={i * 80}>
-            <a
-              className="cert-card"
-              href={cert.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <div className="cert-card">
               <span className="cert-icon">
                 <Icon name="certificate" size={22} />
               </span>
               <div className="cert-title">{cert.title}</div>
               <span className="cert-issuer">{cert.issuer}</span>
-              <span className="cert-verify">
-                Verify credential <Icon name="arrow" size={14} />
-              </span>
-            </a>
+            </div>
           </Reveal>
         ))}
       </div>

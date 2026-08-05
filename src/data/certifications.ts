@@ -1,7 +1,7 @@
 export interface Certification {
   title: string;
   issuer: string;
-  url: string;
+  url?: string;
 }
 
 export interface CourseCert {
@@ -10,19 +10,20 @@ export interface CourseCert {
 
 export const certifications: Certification[] = [
   {
+    title: "Google AI Professional Certificate",
+    issuer: "Google · Coursera",
+  },
+  {
     title: "IBM AI Engineering",
     issuer: "IBM · Coursera",
-    url: "https://coursera.org/verify/professional-cert/AW7FVYFCS8E7",
   },
   {
     title: "Ethical Hacker",
-    issuer: "EC-Council · Credly",
-    url: "https://www.credly.com/badges/18c2f8ca-e24a-45c3-96b4-b12e16abb188",
+    issuer: "EC-Council",
   },
   {
     title: "Introduction to Cybersecurity",
-    issuer: "Cisco Networking Academy · Credly",
-    url: "https://www.credly.com/badges/6aae256e-3437-4f7b-8738-653582c74d3f",
+    issuer: "Cisco Networking Academy",
   },
 ];
 
